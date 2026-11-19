@@ -103,6 +103,7 @@ function App() {
   // Update product quantity
   function updateQuantity(id, amount) {
     setCart((previousCart) =>
+      
       previousCart
         .map((item) =>
           item.id === id
